@@ -87,7 +87,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>Important - you need make tools installed!</em> <code>sudo apt-get install build-essential</code></p>
 <section id="installing-from-a-downloaded-.deb-file" class="level3">
 <h3 class="anchored" data-anchor-id="installing-from-a-downloaded-.deb-file">Installing from a downloaded .deb file</h3>
-<p><code>sudo dpkg -i /absolute/path/to/deb/file</code> then if it fails, to make sure all dependencies are fixed:</p>
+<p><code>sudo dpkg -i /absolute/path/to/deb/file</code> then if (when!) it fails, to make sure all dependencies are fixed:</p>
 <p><code>sudo apt-get install -f</code> and rerun dpkg.</p>
 </section>
 </section>
@@ -197,6 +197,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>      <span class="ex">The</span> rmarkdown package is not available in this R installation.</span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>      <span class="ex">Install</span> with install.packages<span class="er">(</span><span class="st">"rmarkdown"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+</section>
+<section id="zoom" class="level2">
+<h2 class="anchored" data-anchor-id="zoom">Zoom</h2>
+<p>Download from the website <a href="https://us04web.zoom.us/support/download" class="uri">https://us04web.zoom.us/support/download</a></p>
+<p>May need to import key <code>sudo apt install rpm</code> if not already there download the key form their website <a href="https://us04web.zoom.us/linux/download/pubkey?version=5-12-6" class="uri">https://us04web.zoom.us/linux/download/pubkey?version=5-12-6</a> NB this is subject to change so check on site.</p>
+<p><code>rpm --import package-signing-key-[version].pub</code></p>
+<p>Then install using the .deb instructions above.</p>
 </section>
 </section>
 
