@@ -68,3 +68,5 @@ We recommend people have their cameras on wherever possible for all exercises
 
 At the end of the exercise, we recommend that the person sharing their screen shares the notes on the Peer Support Group’s channel on Slack so everyone has a copy.
 
+
+Any assessments are made as friendly as possible. Mainly popular culture with a sci-fi theme.
