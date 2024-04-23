@@ -24,3 +24,5 @@ Install new packages by doing
 `/anaconda/envs/venv_name/bin/pip install package_name`
 
 This should now successfully install packages using that virtual environment's pip!
+
+To leave the venv use `conda deactivate`
