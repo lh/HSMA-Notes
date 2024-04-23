@@ -176,3 +176,12 @@ Then install using the .deb instructions above.
 Download from their website <https://slack.com/intl/en-gb/downloads/instructions/ubuntu>
 
 then install as per any .deb file.
+
+## Draw.io and Mermaid
+
+1. Select the draw.io macro in your Confluence by typing / which brings up the macros menu.
+2. Choose a blank diagram and don’t forget to give your new diagram a name.
+3. Go to the toolbar and select the + symbol.
+(You can also insert a mermaid diagram using the menu bar: Arrange > Insert > Advanced > Mermaid)
+4. Select Advanced and then Mermaid.
+A dialog box will pop up where you can enter the text for the diagram you want to create.

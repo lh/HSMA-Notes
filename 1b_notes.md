@@ -50,9 +50,9 @@ Cpature a really big process map but _then_ simplify as a model.
 eg a model, or an envisionable model (eg webapp)
 ## Organisational impact
 
-You need to know who your stakeholders are: who will benefit, who will be hurt? Need to build engagement othewise your model will sit on the shelf!
+You need to know who your stakeholders are: who will benefit, who will be hurt? Need to build engagement other                 wise your model will sit on the shelf!
 
-Who will helo, who will hinder? Potential conflicts?
+Who will help, who will hinder? Potential conflicts?
 
 Think of interest/influence diagram:
 
@@ -88,8 +88,23 @@ How?
 How to approach?
 
 - Patient councils and groups
-- social suppor tgroups
+- social support groups
 - advertise on social media?
 - schools and colleges?
 
 <https://arc-swp.nihr.ac.uk/patient-public-involvement-engagement/>
+
+## Distributions
+
+Use named distributions eg exponential distribution is typically used to model the time between discrete events that are happening continuously, independently from each other, using lambda (= 1/mean) 
+
+Other is log-normal used for process time. Start with exponential for first draft (faster, simpler).
+
+## Validation and Verification
+
+valid - is the representation good enough?
+
+verification - does the design match the maths?
+
+Black box validation - does it match real world?
+
