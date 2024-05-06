@@ -23,11 +23,42 @@ Installing anaconda - anaconda-navigator not running on xubuntu on HSMA
 Easiest to create a virtual environment (see python_environment.md) and then activate it in the vscode terminal; then activate within vscode
 To activate the Anaconda environment in VSCode, you need to select it as your Python interpreter. Open the Command Palette (Ctrl+Shift+P), type Python: Select Interpreter , and hit Enter. A list of available interpreters will appear. Select the one that corresponds to your Anaconda environment.
 
+## Conda on linux
+Rather than the whole anaconda distribution can just
+install conda on ubuntu using:
+```bash
+mkdir -p ~/miniconda3
+
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+
+rm -rf ~/miniconda3/miniconda.sh
+# initialise
+~/miniconda3/bin/conda init bash
+```
+If you restart your terminal your prompt should be prefixed by "(base)". 
+
+To change conda repositories (they call them channels), create and activate an environment:
+
+```bash
+conda create -n minimal_ds
+conda activate minimal_ds
+```
+and then choose your channel (repository)
+```bash
+conda config --env --add channels conda-forge
+# and make it so that conda-forge is preferred even if newer exists elsewhere
+conda config --env --set channel_priority strict
+```
+
 ### LaTeX and LyX
 
 `sudo apt-get install texlive-full` (it is easier than messing around with tlmgr)
 
 NB there is a bug in the texlive-full installation process - it hangs at  "ConTeXt Mark IV format". Press enter until it moves on!
+
+(note for 24.04 - no bug!)
 
 `sudo apt-get install lyx`
 
@@ -123,7 +154,7 @@ sudo apt update -qq
 
 ```
 ### Important note 6 May 2024
-RStudio doesn't run after istalling until permissions are changed with:
+RStudio doesn't run after installing until permissions are changed with:
 ```bash
 sudo chmod 4755 /usr/lib/rstudio/chrome-sandbox 
 ```
