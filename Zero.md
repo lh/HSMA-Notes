@@ -101,13 +101,41 @@ can then put the key in the right place:
 `wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc`
 Or copy it manually to the correct place and name.
 
+## R on 24.04
+```bash
+# update indices
+sudo apt update -qq
+# install two helper packages we need
+sudo apt install --no-install-recommends software-properties-common dirmngr
+# add the signing key (by Michael Rutter) for these repos
+# To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc 
+# Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+# add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+
+sudo apt install --no-install-recommends r-base
+
+# Add repository
+sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+
+# update index again
+sudo apt update -qq
+
+```
+### Important note 6 May 2024
+RStudio doesn't run after istalling until permissions are changed with:
+```bash
+sudo chmod 4755 /usr/lib/rstudio/chrome-sandbox 
+```
+this will probably be ironed out soon as the version is certified for 22.04, not 24.04
+
 ### Rstudio
 
 Download from their website <https://posit.co/download/rstudio-desktop/>
 
 Install as per .deb files.
 
-At he end running `quarto check` gives a good summary of your installation.
+At the end running `quarto check` gives a good summary of your installation.
 
 This is my installation 14-4-2024
 
