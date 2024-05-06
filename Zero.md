@@ -56,7 +56,7 @@ conda config --env --set channel_priority strict
 
 `sudo apt-get install texlive-full` (it is easier than messing around with tlmgr)
 
-NB there is a bug in the texlive-full installation process - it hangs at  "ConTeXt Mark IV format". Press enter until it moves on!
+NB there is a bug in the texlive-full installation process - it hangs at "ConTeXt Mark IV format". Press enter until it moves on!
 
 (note for 24.04 - no bug!)
 
@@ -215,6 +215,51 @@ Quarto 1.4.553
       Install with install.packages("knitr")
       The rmarkdown package is not available in this R installation.
       Install with install.packages("rmarkdown")
+```
+Installation in d 6-5-2024
+```bash
+Quarto 1.4.554                                                                  
+[✓] Checking versions of quarto binary dependencies...                          
+      Pandoc version 3.1.11: OK                                                 
+      Dart Sass version 1.69.5: OK                                              
+      Deno version 1.37.2: OK                                                   
+[✓] Checking versions of quarto dependencies......OK                            
+[✓] Checking Quarto installation......OK                                        
+      Version: 1.4.554                                                          
+      Path: /opt/quarto/bin                                                     
+                                                                                
+[✓] Checking tools....................OK
+      TinyTeX: (not installed)                                                  
+      Chromium: (not installed)                                                 
+                                                                                
+[✓] Checking LaTeX....................OK
+      Using: Installation From Path                                             
+      Path: /usr/bin                                                            
+      Version: 2023   
+
+[✓] Checking basic markdown render....OK
+
+[✓] Checking Python 3 installation....OK
+      Version: 3.12.2 (Conda)
+      Path: /home/luke/miniconda3/bin/python
+      Jupyter: 5.5.0
+      Kernels: python3
+
+[✓] Checking Jupyter engine render....OK
+
+[✓] Checking R installation...........OK
+      Version: 4.4.0
+      Path: /usr/lib/R
+      LibPaths:
+        - /home/luke/R/x86_64-pc-linux-gnu-library/4.4
+        - /usr/local/lib/R/site-library
+        - /usr/lib/R/site-library
+        - /usr/lib/R/library
+      knitr: 1.46
+      rmarkdown: 2.26
+
+[✓] Checking Knitr engine render......OK
+
 ```
 
 ## Zoom
