@@ -1,4 +1,12 @@
-# Getting ready (using xubuntu 22.04, same as Ubuntu 20.04)
+# Getting ready (using xubuntu 22.04, same as Ubuntu 20.04) [and updates for xubuntu 24.04]
+
+ZOOM links for meetings
+
+ <https://Universityofexeter.zoom.us/j/89864790376?pwd=elN1MVpDeGFlSG1MTm9BSEw0UWp4dz09>
+
+Meeting ID: 898 6479 0376, Password: 353922
+
+
 
 ## General installation techniques
 
@@ -51,6 +59,28 @@ conda config --env --add channels conda-forge
 # and make it so that conda-forge is preferred even if newer exists elsewhere
 conda config --env --set channel_priority strict
 ```
+
+Setting a minimal datascience installation in base with
+```bash
+conda install pandas scikit-learn matplotlib notebook
+```
+
+and to get other stuff working
+```bash
+conda install 
+
+```
+### conda by itself led to all sorts of compatability nightmares. 
+
+Instead back to anaconda
+```bash
+Anaconda3-2024.02-1-Linux-x86_64.sh
+
+curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+
+bash ~/Downloads/Anaconda3-2024.02-1-Linux-x86_64.sh
+```
+
 
 ### LaTeX and LyX
 
