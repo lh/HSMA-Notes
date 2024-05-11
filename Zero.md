@@ -118,6 +118,31 @@ Clone from git:
 1b
 `gh repo clone hsma-programme/h6_1b_intro_or_ds`
 
+#### To download material from one repository and then commit to a different repository, you can follow these steps:
+
+Clone the repository from which you want to download the material. Replace source_repo_url with the URL of the repository.
+```bash
+git clone source_repo_url
+```
+
+Navigate into the cloned repository's directory.
+```bash
+cd repository_name
+```
+Remove the original Git remote, which is named origin by default.
+```bash
+git remote remove origin
+```
+Add your own repository as a new remote. Replace your_repo_url with the URL of your repository.
+```bash
+git remote add origin your_repo_url
+```
+Now, you can commit changes to your own repository.
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin master
+```
 ### QGIS
 
 Painful to install, use their website guide
