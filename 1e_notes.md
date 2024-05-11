@@ -208,6 +208,20 @@ mylist.pop removes the last element
 ```
 mylist.pop(2) removes index 2
 
+### push
+
+There is no push to correspond with pop for lists; use .append():
+```python
+# Create a list
+my_list = [1, 2, 3]
+
+# Add a number to the list
+my_list.append(4)
+
+# Print the list
+print(my_list)
+```
+
 ### in statements
 in can be used for iterable things
 
