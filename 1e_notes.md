@@ -1,6 +1,6 @@
 # Python in a day!
 
-Python is not strongly typed. Assiging a new type will change the type of the variable. Yuck. 
+Python is not strongly typed. Assigning a new type will change the type of the variable. Yuck. 
 
 
 ## Variables that store Multiple Items
