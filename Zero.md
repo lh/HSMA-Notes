@@ -135,13 +135,13 @@ git remote remove origin
 ```
 Add your own repository as a new remote. Replace your_repo_url with the URL of your repository.
 ```bash
-git remote add origin your_repo_url
+git remote add origin https://github.com/lh/Notes
 ```
 Now, you can commit changes to your own repository.
 ```bash
 git add .
 git commit -m "Your commit message"
-git push origin master
+git push origin main
 ```
 ### QGIS
 
