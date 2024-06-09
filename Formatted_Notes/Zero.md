@@ -344,3 +344,20 @@ then install as per any .deb file.
 (You can also insert a mermaid diagram using the menu bar: Arrange > Insert > Advanced > Mermaid)
 4. Select Advanced and then Mermaid.
 A dialog box will pop up where you can enter the text for the diagram you want to create.
+
+# vs code tips
+
+extension for python indentation help:
+
+```oderwat.indent-rainbow```
+
+add some code to settings.json
+
+```json
+{
+      // ... other settings ...
+      "editor.guides.indentation": true,
+      "editor.guides.bracketPairs": true,
+      // ... other settings ...
+}
+```

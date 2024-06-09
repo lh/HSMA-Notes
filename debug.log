@@ -1,0 +1,395 @@
+Run 0	 Call	1 incoming at 0
+Run 0	 Attnd  1 arriving at 0
+Run 0	 Attnd  1 started handle_attendance at 0
+Run 0	 Call	1  answered		0
+Run 0	 Attnd  2 arriving at 3
+Run 0	 Attnd  2 started handle_attendance at 3
+Run 0 	 Call	1  ended	 4
+Run 0	 Call	1  waited for 0
+Run 0	 Call	1  answered		4
+Run 0	 Attnd  3 arriving at 6
+Run 0	 Attnd  3 started handle_attendance at 6
+Run 0 	 Call	1  ended	 8
+Run 0	 Call	1  waited for 4
+Run 0	 Call	2 incoming at 8
+Run 0	 Attnd  3  attended at 0
+Run 0	 Attnd  3  started registering at 8
+Run 0	 Attnd  4 arriving at 9
+Run 0	 Attnd  4 started handle_attendance at 9
+Run 0	 Attnd  4 ended registration at 10
+Run 0	 Attnd  4 released receptionist at 10
+Run 0	 Attnd  4  ended registration at 10
+Run 0	 Attnd  4  started seeing GP at 10
+Run 0	 Attnd  4  attended at 3
+Run 0	 Attnd  4  started registering at 10
+Run 0	 Attnd  5 arriving at 12
+Run 0	 Attnd  5 started handle_attendance at 12
+Run 0	 Attnd  5 ended registration at 12
+Run 0	 Attnd  5 released receptionist at 12
+Run 0	 Attnd  5  ended registration at 12
+Run 0	 Attnd  5  started seeing GP at 12
+Run 0	 Attnd  5  attended at 6
+Run 0	 Attnd  5  started registering at 12
+Run 0	 Attnd  5 ended registration at 14
+Run 0	 Attnd  5 released receptionist at 14
+Run 0	 Call	2  answered		14
+Run 0	 Attnd  6 arriving at 15
+Run 0	 Attnd  6 started handle_attendance at 15
+Run 0	 Attnd  6 ended seeing GP at 18
+ * Run 0	 Attnd  6  went to book test at 18
+Receptionist asked to book test at 18
+Run 0 	 Call	2  ended	 18
+Run 0	 Call	2  waited for 6
+Run 0	 Attnd  7 arriving at 18
+Run 0	 Attnd  7 started handle_attendance at 18
+Run 0	 Call	2  answered		18
+Run 0	 Attnd  7  ended registration at 14
+Run 0	 Attnd  7  started seeing GP at 18
+Run 0	 Attnd  7 ended seeing GP at 20
+ * Run 0	 Attnd  7  went to book test at 20
+Receptionist asked to book test at 20
+Run 0	 Attnd  8 arriving at 21
+Run 0	 Attnd  8 started handle_attendance at 21
+Run 0 	 Call	2  ended	 22
+Run 0	 Call	2  waited for 10
+Run 0	 Call	3 incoming at 22
+Run 0	 Attnd  8  attended at 9
+Run 0	 Attnd  8  started registering at 22
+Run 0	 Attnd  9 arriving at 24
+Run 0	 Attnd  9 started handle_attendance at 24
+Run 0	 Attnd  9 ended registration at 24
+Run 0	 Attnd  9 released receptionist at 24
+Run 0	 Attnd  9  ended registration at 24
+Run 0	 Attnd  9  started seeing GP at 24
+Run 0	 Attnd  9  attended at 12
+Run 0	 Attnd  9  started registering at 24
+Run 0	 Attnd  9 ended seeing GP at 26
+ * Run 0	 Attnd  9  went to book test at 26
+Receptionist asked to book test at 26
+Run 0	 Attnd  9 ended registration at 26
+Run 0	 Attnd  9 released receptionist at 26
+Run 0	 Attnd  9  ended registration at 26
+Run 0	 Attnd  9  started seeing GP at 26
+Run 0	 Attnd  9  attended at 15
+Run 0	 Attnd  9  started registering at 26
+Run 0	 Attnd  10 arriving at 27
+Run 0	 Attnd  10 started handle_attendance at 27
+Run 0	 Attnd  10 ended registration at 28
+Run 0	 Attnd  10 released receptionist at 28
+Run 0	 Attnd  10  started booking test at 28
+Run 1	 Call	1 incoming at 0
+Run 1	 Attnd  1 arriving at 0
+Run 1	 Attnd  1 started handle_attendance at 0
+Run 1	 Call	1  answered		0
+Run 1	 Attnd  2 arriving at 3
+Run 1	 Attnd  2 started handle_attendance at 3
+Run 1 	 Call	1  ended	 4
+Run 1	 Call	1  waited for 0
+Run 1	 Call	1  answered		4
+Run 1	 Attnd  3 arriving at 6
+Run 1	 Attnd  3 started handle_attendance at 6
+Run 1 	 Call	1  ended	 8
+Run 1	 Call	1  waited for 4
+Run 1	 Call	2 incoming at 8
+Run 1	 Attnd  3  attended at 0
+Run 1	 Attnd  3  started registering at 8
+Run 1	 Attnd  4 arriving at 9
+Run 1	 Attnd  4 started handle_attendance at 9
+Run 1	 Attnd  4 ended registration at 10
+Run 1	 Attnd  4 released receptionist at 10
+Run 1	 Attnd  4  ended registration at 10
+Run 1	 Attnd  4  started seeing GP at 10
+Run 1	 Attnd  4  attended at 3
+Run 1	 Attnd  4  started registering at 10
+Run 1	 Attnd  5 arriving at 12
+Run 1	 Attnd  5 started handle_attendance at 12
+Run 1	 Attnd  5 ended registration at 12
+Run 1	 Attnd  5 released receptionist at 12
+Run 1	 Attnd  5  ended registration at 12
+Run 1	 Attnd  5  started seeing GP at 12
+Run 1	 Attnd  5  attended at 6
+Run 1	 Attnd  5  started registering at 12
+Run 1	 Attnd  5 ended registration at 14
+Run 1	 Attnd  5 released receptionist at 14
+Run 1	 Call	2  answered		14
+Run 1	 Attnd  6 arriving at 15
+Run 1	 Attnd  6 started handle_attendance at 15
+Run 1	 Attnd  6 ended seeing GP at 18
+ * Run 1	 Attnd  6  went to book test at 18
+Receptionist asked to book test at 18
+Run 1 	 Call	2  ended	 18
+Run 1	 Call	2  waited for 6
+Run 1	 Attnd  7 arriving at 18
+Run 1	 Attnd  7 started handle_attendance at 18
+Run 1	 Call	2  answered		18
+Run 1	 Attnd  7  ended registration at 14
+Run 1	 Attnd  7  started seeing GP at 18
+Run 1	 Attnd  7 ended seeing GP at 20
+ * Run 1	 Attnd  7  went to book test at 20
+Receptionist asked to book test at 20
+Run 1	 Attnd  8 arriving at 21
+Run 1	 Attnd  8 started handle_attendance at 21
+Run 1 	 Call	2  ended	 22
+Run 1	 Call	2  waited for 10
+Run 1	 Call	3 incoming at 22
+Run 1	 Attnd  8  attended at 9
+Run 1	 Attnd  8  started registering at 22
+Run 1	 Attnd  9 arriving at 24
+Run 1	 Attnd  9 started handle_attendance at 24
+Run 1	 Attnd  9 ended registration at 24
+Run 1	 Attnd  9 released receptionist at 24
+Run 1	 Attnd  9  ended registration at 24
+Run 1	 Attnd  9  started seeing GP at 24
+Run 1	 Attnd  9  attended at 12
+Run 1	 Attnd  9  started registering at 24
+Run 1	 Attnd  9 ended seeing GP at 26
+ * Run 1	 Attnd  9  went to book test at 26
+Receptionist asked to book test at 26
+Run 1	 Attnd  9 ended registration at 26
+Run 1	 Attnd  9 released receptionist at 26
+Run 1	 Attnd  9  ended registration at 26
+Run 1	 Attnd  9  started seeing GP at 26
+Run 1	 Attnd  9  attended at 15
+Run 1	 Attnd  9  started registering at 26
+Run 1	 Attnd  10 arriving at 27
+Run 1	 Attnd  10 started handle_attendance at 27
+Run 1	 Attnd  10 ended registration at 28
+Run 1	 Attnd  10 released receptionist at 28
+Run 1	 Attnd  10  started booking test at 28
+Run 2	 Call	1 incoming at 0
+Run 2	 Attnd  1 arriving at 0
+Run 2	 Attnd  1 started handle_attendance at 0
+Run 2	 Call	1  answered		0
+Run 2	 Attnd  2 arriving at 3
+Run 2	 Attnd  2 started handle_attendance at 3
+Run 2 	 Call	1  ended	 4
+Run 2	 Call	1  waited for 0
+Run 2	 Call	1  answered		4
+Run 2	 Attnd  3 arriving at 6
+Run 2	 Attnd  3 started handle_attendance at 6
+Run 2 	 Call	1  ended	 8
+Run 2	 Call	1  waited for 4
+Run 2	 Call	2 incoming at 8
+Run 2	 Attnd  3  attended at 0
+Run 2	 Attnd  3  started registering at 8
+Run 2	 Attnd  4 arriving at 9
+Run 2	 Attnd  4 started handle_attendance at 9
+Run 2	 Attnd  4 ended registration at 10
+Run 2	 Attnd  4 released receptionist at 10
+Run 2	 Attnd  4  ended registration at 10
+Run 2	 Attnd  4  started seeing GP at 10
+Run 2	 Attnd  4  attended at 3
+Run 2	 Attnd  4  started registering at 10
+Run 2	 Attnd  5 arriving at 12
+Run 2	 Attnd  5 started handle_attendance at 12
+Run 2	 Attnd  5 ended registration at 12
+Run 2	 Attnd  5 released receptionist at 12
+Run 2	 Attnd  5  ended registration at 12
+Run 2	 Attnd  5  started seeing GP at 12
+Run 2	 Attnd  5  attended at 6
+Run 2	 Attnd  5  started registering at 12
+Run 2	 Attnd  5 ended registration at 14
+Run 2	 Attnd  5 released receptionist at 14
+Run 2	 Call	2  answered		14
+Run 2	 Attnd  6 arriving at 15
+Run 2	 Attnd  6 started handle_attendance at 15
+Run 2	 Attnd  6 ended seeing GP at 18
+ * Run 2	 Attnd  6  went to book test at 18
+Receptionist asked to book test at 18
+Run 2 	 Call	2  ended	 18
+Run 2	 Call	2  waited for 6
+Run 2	 Attnd  7 arriving at 18
+Run 2	 Attnd  7 started handle_attendance at 18
+Run 2	 Call	2  answered		18
+Run 2	 Attnd  7  ended registration at 14
+Run 2	 Attnd  7  started seeing GP at 18
+Run 2	 Attnd  7 ended seeing GP at 20
+ * Run 2	 Attnd  7  went to book test at 20
+Receptionist asked to book test at 20
+Run 2	 Attnd  8 arriving at 21
+Run 2	 Attnd  8 started handle_attendance at 21
+Run 2 	 Call	2  ended	 22
+Run 2	 Call	2  waited for 10
+Run 2	 Call	3 incoming at 22
+Run 2	 Attnd  8  attended at 9
+Run 2	 Attnd  8  started registering at 22
+Run 2	 Attnd  9 arriving at 24
+Run 2	 Attnd  9 started handle_attendance at 24
+Run 2	 Attnd  9 ended registration at 24
+Run 2	 Attnd  9 released receptionist at 24
+Run 2	 Attnd  9  ended registration at 24
+Run 2	 Attnd  9  started seeing GP at 24
+Run 2	 Attnd  9  attended at 12
+Run 2	 Attnd  9  started registering at 24
+Run 2	 Attnd  9 ended seeing GP at 26
+ * Run 2	 Attnd  9  went to book test at 26
+Receptionist asked to book test at 26
+Run 2	 Attnd  9 ended registration at 26
+Run 2	 Attnd  9 released receptionist at 26
+Run 2	 Attnd  9  ended registration at 26
+Run 2	 Attnd  9  started seeing GP at 26
+Run 2	 Attnd  9  attended at 15
+Run 2	 Attnd  9  started registering at 26
+Run 2	 Attnd  10 arriving at 27
+Run 2	 Attnd  10 started handle_attendance at 27
+Run 2	 Attnd  10 ended registration at 28
+Run 2	 Attnd  10 released receptionist at 28
+Run 2	 Attnd  10  started booking test at 28
+Run 3	 Call	1 incoming at 0
+Run 3	 Attnd  1 arriving at 0
+Run 3	 Attnd  1 started handle_attendance at 0
+Run 3	 Call	1  answered		0
+Run 3	 Attnd  2 arriving at 3
+Run 3	 Attnd  2 started handle_attendance at 3
+Run 3 	 Call	1  ended	 4
+Run 3	 Call	1  waited for 0
+Run 3	 Call	1  answered		4
+Run 3	 Attnd  3 arriving at 6
+Run 3	 Attnd  3 started handle_attendance at 6
+Run 3 	 Call	1  ended	 8
+Run 3	 Call	1  waited for 4
+Run 3	 Call	2 incoming at 8
+Run 3	 Attnd  3  attended at 0
+Run 3	 Attnd  3  started registering at 8
+Run 3	 Attnd  4 arriving at 9
+Run 3	 Attnd  4 started handle_attendance at 9
+Run 3	 Attnd  4 ended registration at 10
+Run 3	 Attnd  4 released receptionist at 10
+Run 3	 Attnd  4  ended registration at 10
+Run 3	 Attnd  4  started seeing GP at 10
+Run 3	 Attnd  4  attended at 3
+Run 3	 Attnd  4  started registering at 10
+Run 3	 Attnd  5 arriving at 12
+Run 3	 Attnd  5 started handle_attendance at 12
+Run 3	 Attnd  5 ended registration at 12
+Run 3	 Attnd  5 released receptionist at 12
+Run 3	 Attnd  5  ended registration at 12
+Run 3	 Attnd  5  started seeing GP at 12
+Run 3	 Attnd  5  attended at 6
+Run 3	 Attnd  5  started registering at 12
+Run 3	 Attnd  5 ended registration at 14
+Run 3	 Attnd  5 released receptionist at 14
+Run 3	 Call	2  answered		14
+Run 3	 Attnd  6 arriving at 15
+Run 3	 Attnd  6 started handle_attendance at 15
+Run 3	 Attnd  6 ended seeing GP at 18
+ * Run 3	 Attnd  6  went to book test at 18
+Receptionist asked to book test at 18
+Run 3 	 Call	2  ended	 18
+Run 3	 Call	2  waited for 6
+Run 3	 Attnd  7 arriving at 18
+Run 3	 Attnd  7 started handle_attendance at 18
+Run 3	 Call	2  answered		18
+Run 3	 Attnd  7  ended registration at 14
+Run 3	 Attnd  7  started seeing GP at 18
+Run 3	 Attnd  7 ended seeing GP at 20
+ * Run 3	 Attnd  7  went to book test at 20
+Receptionist asked to book test at 20
+Run 3	 Attnd  8 arriving at 21
+Run 3	 Attnd  8 started handle_attendance at 21
+Run 3 	 Call	2  ended	 22
+Run 3	 Call	2  waited for 10
+Run 3	 Call	3 incoming at 22
+Run 3	 Attnd  8  attended at 9
+Run 3	 Attnd  8  started registering at 22
+Run 3	 Attnd  9 arriving at 24
+Run 3	 Attnd  9 started handle_attendance at 24
+Run 3	 Attnd  9 ended registration at 24
+Run 3	 Attnd  9 released receptionist at 24
+Run 3	 Attnd  9  ended registration at 24
+Run 3	 Attnd  9  started seeing GP at 24
+Run 3	 Attnd  9  attended at 12
+Run 3	 Attnd  9  started registering at 24
+Run 3	 Attnd  9 ended seeing GP at 26
+ * Run 3	 Attnd  9  went to book test at 26
+Receptionist asked to book test at 26
+Run 3	 Attnd  9 ended registration at 26
+Run 3	 Attnd  9 released receptionist at 26
+Run 3	 Attnd  9  ended registration at 26
+Run 3	 Attnd  9  started seeing GP at 26
+Run 3	 Attnd  9  attended at 15
+Run 3	 Attnd  9  started registering at 26
+Run 3	 Attnd  10 arriving at 27
+Run 3	 Attnd  10 started handle_attendance at 27
+Run 3	 Attnd  10 ended registration at 28
+Run 3	 Attnd  10 released receptionist at 28
+Run 3	 Attnd  10  started booking test at 28
+    ID  ... Queue_Time
+0    1  ...          0
+1    1  ...          4
+2    3  ...          8
+3    4  ...          0
+4    4  ...          7
+..  ..  ...        ...
+59   9  ...          0
+60   9  ...         12
+61   9  ...          0
+62   9  ...         11
+63  10  ...         10
+
+[64 rows x 4 columns]
+    ID Run    Queue_Type Queue_Time
+0    1   0          Call          0
+1    1   0          Call          4
+2    3   0     Reception          8
+3    4   0        Doctor          0
+4    4   0     Reception          7
+5    5   0        Doctor          0
+6    5   0     Reception          6
+7    2   0          Call          6
+8    2   0          Call         10
+9    7   0        Doctor          4
+10   8   0     Reception         13
+11   9   0        Doctor          0
+12   9   0     Reception         12
+13   9   0        Doctor          0
+14   9   0     Reception         11
+15  10   0  Booking_Test         10
+16   1   1          Call          0
+17   1   1          Call          4
+18   3   1     Reception          8
+19   4   1        Doctor          0
+20   4   1     Reception          7
+21   5   1        Doctor          0
+22   5   1     Reception          6
+23   2   1          Call          6
+24   2   1          Call         10
+25   7   1        Doctor          4
+26   8   1     Reception         13
+27   9   1        Doctor          0
+28   9   1     Reception         12
+29   9   1        Doctor          0
+30   9   1     Reception         11
+31  10   1  Booking_Test         10
+32   1   2          Call          0
+33   1   2          Call          4
+34   3   2     Reception          8
+35   4   2        Doctor          0
+36   4   2     Reception          7
+37   5   2        Doctor          0
+38   5   2     Reception          6
+39   2   2          Call          6
+40   2   2          Call         10
+41   7   2        Doctor          4
+42   8   2     Reception         13
+43   9   2        Doctor          0
+44   9   2     Reception         12
+45   9   2        Doctor          0
+46   9   2     Reception         11
+47  10   2  Booking_Test         10
+48   1   3          Call          0
+49   1   3          Call          4
+50   3   3     Reception          8
+51   4   3        Doctor          0
+52   4   3     Reception          7
+53   5   3        Doctor          0
+54   5   3     Reception          6
+55   2   3          Call          6
+56   2   3          Call         10
+57   7   3        Doctor          4
+58   8   3     Reception         13
+59   9   3        Doctor          0
+60   9   3     Reception         12
+61   9   3        Doctor          0
+62   9   3     Reception         11
+63  10   3  Booking_Test         10

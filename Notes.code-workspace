@@ -7,5 +7,9 @@
 			"path": "../HSMA"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"simpy"
+		]
+	}
 }
